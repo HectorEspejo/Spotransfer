@@ -2,9 +2,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Spotify API credentials
-client_id = '4c48f34b70324e438183d632d8334d31'
-client_secret = '77522d8bd4b9475cb23f6ebc085a05ea'
-redirect_uri = 'http://localhost'
+client_id = 'YOUR_CLIENT_ID'
+client_secret = 'YOUR_CLIENT_SECRET'
+redirect_uri = 'http://localhost'  # The script will ask for the redirection URI
 
 # Scope to access liked songs and manage playlists
 scope = 'user-library-read playlist-modify-private playlist-modify-public'
